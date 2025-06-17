@@ -1,8 +1,8 @@
-Cypress.Commands.add('loginAdministrador', (username, password) => {
+Cypress.Commands.add('login', (username, password) => {
     cy.visit('/login');
-    cy.get('#username').type(username);
-    cy.get('#password').type(password);
-    cy.get('button[type=submit]').click();
+    cy.get('input[name="user"]').type(username, {force:true});
+    cy.get('input[name="password"]').type(password, {force:true}).tab();
+    cy.get('button[type=submit]').click({force:true});
 });
 
 Cypress.Commands.add('loginFixture', (userKey) => {
