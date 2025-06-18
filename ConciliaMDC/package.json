@@ -1,5 +1,17 @@
 {
-  "dependencies": {
-    "cypress": "^14.4.1"
-  }
+  "name": "conciliamdc",
+  "version": "1.0.0",
+  "description": "Este Repositório visa automação E2E somente do projeto Portal Conciliação Comprovantes.\r Este projeto de automação visa agilizar as regressões de testes conforme mudanças são realizadas no escopo do sistema.\r Este código é um repositório vivo que deve ser atualizado conforme a necessidade.",
+  "main": "cypress.config.js",
+  "devDependencies": {
+    "cypress": "^14.4.1",
+    "cypress-plugin-tab": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }

@@ -1,0 +1,10 @@
+{
+    "validUser": {
+        "username": "augusto.mecelis+admin@luby.com.br",
+        "password": "BigLasagna87!"
+    },
+    "invalidUser": {
+        "username": "email@email.com",
+        "password": "123456"
+    }
+}
